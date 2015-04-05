@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   root "pages#home"
-  get "about" => "pages#about" #About_path
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
+  get "about" => "pages#about"
+  get "info" => "pages#info"
+  get "chitfund" => "pages#chitfund"
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

@@ -3,4 +3,8 @@ class PagesController < ApplicationController
   end
   def About
   end
+  def info
+  end
+  def chitfund
+  end
 end
